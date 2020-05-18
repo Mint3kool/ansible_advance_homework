@@ -5,6 +5,7 @@
     state: present
     scm_type: git
     scm_url: https://github.com/Mint3kool/ansible_advance_homework
+    scm_update_on_launch: true
  
 - name: Machine Credential to connect to workstation using openstack.pub
   tower_credential:
